@@ -19,7 +19,7 @@ Either can be found with your corresponding package manager if you have a  *Linu
 If you're using cabal you can simply do
 
 ```bash
-cabal run
+cabal run sudoku-solver.cabal <Sudoku> <Algorithm1> <Algorithm2> ...
 ```
 
 Otherwise on stack with the executable name generated, on this case we'll consider it as *sudoku-solver*
