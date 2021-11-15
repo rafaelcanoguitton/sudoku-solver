@@ -96,7 +96,6 @@ pruneGrid = fixM pruneGrid'
 
 
 
-
 -- SOLVER FUNCTIONS
 
 -- function to make two grid options
