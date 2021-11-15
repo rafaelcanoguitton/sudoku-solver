@@ -25,3 +25,4 @@ main = do
         else do
           let solutions = solver args
           print solutions
+
