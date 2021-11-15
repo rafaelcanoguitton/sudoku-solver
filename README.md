@@ -1,6 +1,6 @@
 # sudoku-solver
 
-This repository was created with the intent of storing Programming Languages' (CS341)  final project. Said project consists of an application to show Haskell's advantages as a programming language by implementing several sudoku solving algorithms.
+This repository was created with the intent of storing Programming Languages' (CS341)  final project. Said project consists of an application to show Haskell's advantages as a programming language .
 
 # Building Sudoku Solver
 
@@ -17,6 +17,11 @@ Either can be found with your corresponding package manager if you have a  *Linu
 # Running Sudoku Solver
 
 If you're using cabal you can simply do
+
+
+```bash
+cat input.txt | cabal run sudoku-solver.cabal
+```
 
 ```bash
 cabal run sudoku-solver.cabal <Sudoku> <Algorithm1> <Algorithm2> ...
